@@ -1,5 +1,5 @@
 {
-  "name": "reacd-tdd-example",
+  "name": "react-tdd-example",
   "version": "1.0.0",
   "description": "First steps with TDD in React",
   "main": "index.js",
