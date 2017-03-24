@@ -1,0 +1,27 @@
+{
+  "name": "reacd-tdd-example",
+  "version": "1.0.0",
+  "description": "First steps with TDD in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require setup.js *.spec.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [],
+  "author": "Luis Lacruz <luixlacrux18@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.7.1",
+    "jsdom": "^9.12.0",
+    "sinon": "^2.1.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
